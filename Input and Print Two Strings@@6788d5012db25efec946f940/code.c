@@ -2,8 +2,8 @@
 
 int main() {
     char string[100],string2[100];
-    scanf("%c""%c",&string[99],&string2[99]);
-    printf("You entered: %c", string);
-    printf(" and %c",string2);
+    scanf("%s[99]""%s[99]",&string[99],&string2[99]);
+    printf("You entered: %s", string);
+    printf(" and %s",string2);
     return 0;
 }
