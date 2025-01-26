@@ -1,10 +1,18 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int main() {
-    printf("%s", welcome());
+    char s;
+    scanf("%c",&s);
+    if(s>"A" && s<"Z"){
+        printf("Uppercase");
+    }
+    else if(s>"a" && s<"z"){
+        printf("Lowercase");
+    }
+    else{
+        printf("Not an Alphabet")
+    }
+
     return 0;
 }
