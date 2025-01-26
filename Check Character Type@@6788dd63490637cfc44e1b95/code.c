@@ -10,10 +10,10 @@ int main() {
         printf("Digit");
     }
     else if(isalpha(ch)){
-        printf("Consonant")
+        printf("Consonant");
     }
     else{
-        printf("Special Character")
+        printf("Special Character");
     }
     
     return 0;
